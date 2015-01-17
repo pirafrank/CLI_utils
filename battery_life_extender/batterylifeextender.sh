@@ -6,9 +6,19 @@
 
 # Notifies the user when plug or unplug the power cord to extend the overall battery life
 
-# LICENSE
-# This script is released under GNU GPLv3 license and is provided "as-is" with NO WARRANTY.
-# I'm not responsible of any damage to your computer battery life.
+# LICENSE 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # AUTHOR
 # Francesco Pira
