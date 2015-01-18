@@ -1,0 +1,1 @@
+alias editcron='EDITOR=nano crontab -e'

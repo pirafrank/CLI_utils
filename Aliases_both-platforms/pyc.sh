@@ -1,0 +1,1 @@
+alias pyc='python -m compileall'
