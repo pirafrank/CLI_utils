@@ -1,9 +1,28 @@
 #!/bin/bash
 
-# calculate the md5 of passed files and compare the result
+# md5cmp
+# calculate the md5 of given files and compare the results
 # Supports OS X and Linux (tested on OS X 10.9.4 and Raspbian)
+#
+# Copyright (C) 2015 Francesco Pira <francescopira.me@gmail.com> 
+#
+# This script is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This script is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this script.  If not, see <http://www.gnu.org/licenses/>.
 
-# changelog
+# developer's website: fpira.com
+
+
+# CHANGELOG
 # v 5.0
 # Linux and OS X version merged
 # fixed potential bug
@@ -18,28 +37,13 @@
 # v 1.0
 # initial release
 
-# features to include:
+# Features to include:
 # proper error handling if file does not exist
 # proper error handling if command is not found
 # merge is OS X version ( $( uname -a | grep "Darwin" "Linux" ) )
 
-# LICENSE 
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# AUTHOR
-# Francesco Pira
-# fpira.com
+
 
 # FUNCTIONS #
 

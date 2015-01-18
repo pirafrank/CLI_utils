@@ -1,27 +1,27 @@
 #!/bin/bash
 
-# Backup mailman archives
-
-# AUTHOR
-# Francesco Pira
-# fpira.com
-
-# LICENSE 
-# This program is free software: you can redistribute it and/or modify
+# mailman-backup-script 
+# Backups mailman archives
+#
+# Copyright (C) 2015 Francesco Pira <francescopira.me@gmail.com> 
+#
+# This script is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 #
-# This program is distributed in the hope that it will be useful,
+# This script is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# along with this script.  If not, see <http://www.gnu.org/licenses/>.
+
+# developer's website: fpira.com
 
 
-# future features:
+# Future features:
 # add overwrite alert: if backup folder is present the script asks to overwrite it. If so removes it and executes.
 
 # NOTES
@@ -37,6 +37,7 @@
 # RESTORE (on new server)
 # cp -ri /path/to/mailman-html-backup/ /var/lib/mailman/archives/
 # cp -ri /path/to/mailman-txt-backup/ /var/lib/mailman/archives/
+
 
 
 if [[ $EUID -ne 0 ]]; then
