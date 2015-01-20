@@ -32,7 +32,7 @@ if [ "${status/$substring1}" = "$status" ] ; then
   if (( "$charge" >= 80 )) ; then
      # notify
      thescript='display notification "You can now unplug the power cord to extend the overall battery life." with title "BatteryLifeExtender" subtitle '
-     the2part="\"Please unplug me! Charge is ${charge}%\""
+     the2part="\"Unplug your mac! Charge is ${charge}%\""
      /usr/bin/osascript -e "${thescript}${the2part}"
   fi
 else
@@ -40,7 +40,7 @@ else
   if (( "$charge" <= 40 )) ; then
      # notify
      thescript='display notification "You should plug your mac to a power outlet to extend the overall battery life." with title "BatteryLifeExtender" subtitle '
-     the2part="\"Please plug me! Charge is ${charge}%\""
+     the2part="\"Plug you mac! Charge is ${charge}%\""
      /usr/bin/osascript -e "${thescript}${the2part}"  
   fi
 fi
