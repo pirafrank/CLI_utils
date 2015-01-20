@@ -47,7 +47,7 @@ USER_PATH="/Users/$(whoami)"
 BACKUP_PATH="/Users/$(whoami)/Documents/user_backups"
 DATE=$(date +%Y-%m-%d_%H.%M)
 
-# checking if folder exists
+# checking if folder exists otherwise it creates it and its ancestors
 if [[ ! -d $BACKUP_PATH ]]; then
      mkdir -p $BACKUP_PATH
 fi
