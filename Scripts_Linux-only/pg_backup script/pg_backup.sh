@@ -30,7 +30,7 @@ DATE=$(date +%Y-%m-%d_%H.%M)
 DBUSER="unstable"
 DBNAME="unstable"
 
-# checking if folder exists otherwise it creates it and its ancestors
+# checking if folder exists otherwise it and its ancestors are created
 if [[ ! -d $BACKUP_PATH ]]; then
      mkdir -p $BACKUP_PATH
 fi
