@@ -1,1 +1,1 @@
-0 4 * * * pg_backup 2>&1 > /dev/null
+0 4 * * * /usr/local/bin/pg_backup > /dev/null 2>&1
