@@ -49,7 +49,7 @@ DATE=$(date +%Y-%m-%d_%H.%M)
 
 # checking if folder exists
 if [[ ! -d $BACKUP_PATH ]]; then
-     mkdir $BACKUP_PATH
+     mkdir -p $BACKUP_PATH
 fi
 
 cd $BACKUP_PATH
