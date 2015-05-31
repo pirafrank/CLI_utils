@@ -1,25 +1,28 @@
 #!/bin/bash
 
-# md5cmp
+#########################################################################
+# md5cmp <https://github.com/pirafrank/CLI_utils>
 # calculate the md5 of given files and compare the results
 # Supports OS X and Linux (tested on OS X 10.9.4 and Raspbian)
 #
-# Copyright (C) 2015 Francesco Pira <francescopira.me@gmail.com> 
+# Copyright (C) 2015 Francesco Pira <dev@fpira.com> 
 #
-# This script is free software: you can redistribute it and/or modify
+# This file is part of CLI_utils.
+#
+# CLI_utils is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 #
-# This script is distributed in the hope that it will be useful,
+# CLI_utils is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with this script.  If not, see <http://www.gnu.org/licenses/>.
-
-# developer's website: fpira.com
+# along with CLI_utils. If not, see <http://www.gnu.org/licenses/>.
+#
+#########################################################################
 
 
 # CHANGELOG

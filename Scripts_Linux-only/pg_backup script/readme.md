@@ -1,6 +1,12 @@
 ## pg_backup script
-Simple script to backup a PostgreSQL database. Older backups are 
-Designed to be run daily. You can use crontab for that.
+Daily backup with rotation for your postgresql database
+
+Designed for Linux only.
+
+### Requirements
+
+- python 2.7
+- rotate_backups module
 
 ### Configuration
 Open the script and change variables in proper their section.
@@ -25,4 +31,15 @@ Note that this script assumes you:
 ### Installation
 Download the script wherever you want, then open a terminal in that dir. Then run 
 
-`` $ sudo cp pg_backup.sh /usr/local/bin/pg_backup `` 
+```
+$ sudo cp pg_backup.sh /usr/local/bin/pg_backup
+$ sudo chmod +x /usr/local/bin/pg_backup
+```
+
+### Usage
+
+Put the crontab in cron using ```crontab -e```. You can customize it, if you want to.
+
+### License
+
+Please check the main repo, CLI_utils.
