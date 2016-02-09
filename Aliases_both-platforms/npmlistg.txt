@@ -1,0 +1,1 @@
+alias npmlistg='npm list -g --depth=0'
