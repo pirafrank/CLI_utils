@@ -2,14 +2,29 @@
 
 Useful scripts and aliases at your fingertips.
 
-Be warned, they may burst your productivity!
+Be warned, they may burst (:fire:) your productivity!
 
-### Installation
+### :cookie: Related goodies :cookie:
+
+If you've found this repo interesting, you may want to check out my [snippets repo](http://github.com/pirafrank/snippets).
+
+### Installation (bash aliases)
+
+1. copy the alias you want
+2. open your `~/.bashrc` (`~/.bash_profile` on OS X) with your favorite editor
+3. paste the alias at the bottom of the file, then save and close it
+4. `source ~/.bashrc` (`source ~/.bash_profile` on OS X)
+
+### Installation (scripts)
 
 ```
 sudo cp nameofthescript.sh /usr/local/bin/nameofthescript
 sudo chmod +x /usr/local/bin/nameofthescript
 ```
+
+### Installation (git aliases)
+
+1. Just copy/paste the one you want to your bash
 
 ### License
 
