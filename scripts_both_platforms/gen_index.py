@@ -23,7 +23,6 @@ import sys
 import urllib
 
 if len(sys.argv) != 2:
-    print "Error: this script take only 2 arguments."
     print "Usage: ./gen_index [path]"
     sys.exit()
 else:
@@ -35,7 +34,7 @@ print "start working..."
 
 title = path.split('/')[-1] # the web page title will be the directory name
 file_list = [file for file in os.listdir(path) if os.path.isfile(os.path.join(path, file))] # saving file list
-rubbish = ['thumbs.db','desktop.ini','.DS_Store'] # dumb system files
+rubbish = ['index.html','thumbs.db','desktop.ini','.DS_Store']
 
 with open(path+'/index.html', 'w+') as f:
     f.write("<html>\n<head>\n")
@@ -43,7 +42,7 @@ with open(path+'/index.html', 'w+') as f:
     f.write("<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />")
     f.write("<title>"+title+"</title>\n</head>\n<body style=\"text-align:center;\"><br>")
     for file in file_list:
-        # exclude unix/linux hidden and dumb system files
+        # exclude unix/linux hidden and dumb system files and index itself
         if not file.startswith('.') and file not in rubbish:
             # creating links with encoded web safe urls
             f.write("<a href=\""+urllib.quote(file, safe='')+"\">"+file+"</a><br>\n")
