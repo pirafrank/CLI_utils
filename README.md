@@ -6,7 +6,7 @@ Be warned, they may burst (:fire:) your productivity!
 
 ### :cookie: Related goodies :cookie:
 
-If you've found this repo interesting, you may want to check out my [snippets repo](http://github.com/pirafrank/snippets).
+If you've found this repo interesting, you may want to check out my [snippets repo](http://github.com/pirafrank/snippets) or [OSX_utils](http://github.com/pirafrank/OSX_utils).
 
 ### Installation (bash aliases)
 
