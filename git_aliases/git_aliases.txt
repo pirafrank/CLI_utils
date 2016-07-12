@@ -1,8 +1,9 @@
 # git aliases
-# in your bash type the commands below (choose the aliases you want)
+# type the commands below in your CLI (choose the aliases you want)
 
 git config --global alias.co checkout
-git config --global alias.st status
+git config --global alias.st "status -s"
 git config --global alias.br branch
 git config --global alias.cm commit
- 
+git config --global alias.pl pull
+git config --global alias.ps push
