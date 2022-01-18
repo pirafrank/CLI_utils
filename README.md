@@ -1,5 +1,15 @@
 # CLI_utilities
 
+---
+
+**ARCHIVED REPO**
+
+This repo has been archived. Scripts and new content can be found in my [dotfiles](https://github.com/pirafrank/dotfiles) repository.
+
+Original content follows.
+
+---
+
 Useful scripts and aliases at your fingertips.
 
 Be warned, they may burst (:fire:) your productivity!
